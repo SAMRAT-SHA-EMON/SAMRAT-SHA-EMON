@@ -15,7 +15,7 @@ I am a graduate researcher in the School of Computer Science and Technology at S
 
 | Project | Domain | Key Technologies | Highlights |
 | :--- | :--- | :--- | :--- |
-| **Flowsieve** | Encrypted Traffic Classification & Smart Router Security | Python, LightGBM, Go, C, OpenWrt, `nftables` | Classifies encrypted mobile flows into **Game**, **Payment**, and **Social-Media** using paired-view shared class-pair trees (C1/C2) and hierarchical probability fusion across 348 apps; deployed on Redmi AX6 hardware. |
+| **FlowSieve: Encrypted Mobile Traffic Classification and Category-Based Filtering Using Hierarchical Probability Fusion** | Encrypted Traffic Classification & Smart Router Security | Python, LightGBM, Go, C, OpenWrt LuCI, `nftables` | Evaluated across 348 mobile apps with 97.52% Seen and 89.69% Unseen accuracy; features live OpenWrt LuCI interface (`/cgi-bin/luci/admin/services/flowsieve`) and 588.8 µs/flow Redmi AX6 native C engine. |
 | **RiverPlastic Detection & Ensemble Benchmark** | Computer Vision / Environmental Monitoring | Python, PyTorch (FP16/FP32), Ultralytics YOLO, ConvNeXt, Swin, DenseNet | Benchmarks single-stage detectors and multi-backbone ensembles on river plastic datasets with strict latency and precision profiling on NVIDIA Tesla T4 GPUs. |
 | **Smart Router Firmware & OpenWrt Filtering** | Embedded Linux & Network Engineering | C/C++, OpenWrt, Armbian, LuCI, `nftables` | Custom squashfs image compilation, USB/WAN interface bridging, and kernel/user-space packet filtering for Raspberry Pi 4B and RK3399 boards. |
 
@@ -30,5 +30,5 @@ I am a graduate researcher in the School of Computer Science and Technology at S
 
 * **Email:** `samratshaemon13@gmail.com`
 * **Institution:** School of Computer Science and Technology, Southwest University of Science and Technology (SWUST), Mianyang, Sichuan, China
-- ⚡ Fun fact: ...
+<!-- - ⚡ Fun fact: ...
 -->
